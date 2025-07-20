@@ -1,0 +1,29 @@
+.button {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    padding:0.6em 0.8em;
+    border-radius:10px;
+    outline:none;
+    border:none;
+    font-size:1.1em;
+    background-color:#1d4ed8;
+    color:#fff;
+}
+.button > i{
+    font-size:1.2em;
+    color:#fff;
+}
+.button:hover{
+    background-color:#2563eb;
+    color:#fff
+}
+.button > span :hover{
+    background-color:#2563eb;
+    color:#fff
+}
+.button > i:hover{
+    background-color:#2563eb;
+    color:#fff
+}

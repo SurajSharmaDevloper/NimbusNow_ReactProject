@@ -1,0 +1,14 @@
+.Box{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    color:grey;
+}
+.Box i {
+    font-size:2em;
+}
+.Box p {
+    font-size:1em;
+    text-transform:capitalize;
+}

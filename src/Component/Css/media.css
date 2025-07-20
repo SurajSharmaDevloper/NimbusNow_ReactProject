@@ -1,0 +1,39 @@
+@media screen and (max-width:1000px){
+    .Navbar > .main{
+        text-align:start;
+        flex-wrap:wrap;
+        flex-direction:column;
+        padding:0 1.5em;
+        gap:20px;
+        justify-content:space-between;
+        align-items:start;
+        width:100%;
+}
+
+    .navList{
+        width:100%;
+        justify-content:space-between;
+
+}
+}
+
+@media screen and (max-width:600px){
+     .Navbar{
+        position:relative;
+    }
+    .Navbar{
+        padding:0;
+        
+    }
+    .NavBtn{
+        position:absolute;
+        top:20px;
+        right:20px;
+        padding:0;
+    }
+   .searchBar > button{
+        padding:0.6em;
+        gap:5px;
+        
+    }
+}

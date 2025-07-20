@@ -1,0 +1,22 @@
+.Navbar {
+    padding:1em;
+    width:100%;
+}
+.Navbar  > div {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:50px;
+}
+.main > .navList{
+    display:flex;
+    align-items:center;
+    justify-color:center;
+    gap:30px
+}
+
+.logo h1{
+    font-size:2em;
+    color:#ffffff; 
+}
+.

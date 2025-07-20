@@ -1,0 +1,12 @@
+.card{
+    width:400px;
+    max-width:600px;
+    height:auto;
+    background-color: #060606;
+    display:inline-block;
+    border-radius:10px;
+}
+.card > .heading > h2{
+    color:#fff;
+    padding:0.8em 1em 0 1em;
+}

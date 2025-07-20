@@ -1,0 +1,83 @@
+.main{
+    width:100%;
+    height:100%;
+    padding:1em 2em 2em 2em;
+}
+.mainChild{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+}
+.mainChild > div.child-1 > h4, h3{
+    display:flex;
+    justify-content:start;
+    align-items:center;
+    gap:0.4em;
+    color:#999999;
+}
+i{
+    font-size:1.5em;
+}
+.child-2 > div > img{
+    max-width:120px;
+    width:90px;
+    fill:grey;
+}
+.mainChild > div.child-2{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:2em
+}
+.mainChild > div.child-2 > div > h1{
+    font-size:4em;
+    color:#808080;
+    line-height:60px
+}
+.mainChild > div.child-2 > div > p{
+    font-size:1.5em;
+    color:#808080;
+}
+.Timing{
+    
+    text-transform:uppercase;
+}
+
+
+.card-footer {
+    text-align: start;
+    color: grey;
+}
+
+.card-footer p {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+ .card-footer i {
+    font-size: 1.5rem;
+}
+
+.card .card-footer p {
+    padding: 5px 0;
+    font-size:1.2em;
+}
+
+.card-footer p a {
+    color: var(--text);
+    text-decoration: none;
+}
+.child-3{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.child-3 > div {
+    color:grey;
+    display:flex;
+    flex-direction:column;
+    justify-content:baseline;
+    align-items:center;
+    gap:0.5em;
+}
