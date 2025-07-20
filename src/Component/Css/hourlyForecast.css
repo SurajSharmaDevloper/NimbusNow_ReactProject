@@ -1,0 +1,12 @@
+.module{
+    display:flex;
+    gap:30px;
+    align-items:center;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+.container{
+    padding:0;
+    max-width:900px;
+    min-width:200px;
+}

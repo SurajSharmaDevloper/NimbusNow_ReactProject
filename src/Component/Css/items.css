@@ -1,0 +1,19 @@
+.items{
+    padding:1em;
+    border:2px solid grey;
+    border-radius:10px;
+    color:grey; 
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color:#060606;
+}
+.items i{
+    font-size:2em;
+}
+.items h2{
+    font-size:1.8em;
+}
+.items p{
+    font-size:0.8em;
+}
